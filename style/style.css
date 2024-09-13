@@ -16,6 +16,7 @@
   color: white;
   animation-name: movingText;
   animation-duration: 5s;
+  animation-delay: 1s;
 }
 
 @keyframes movingText {
