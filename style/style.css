@@ -7,4 +7,25 @@
 .container {
   min-height: 100vh;
   background-color: rgb(59, 179, 59);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: white;
+  animation-name: movingText;
+  animation-duration: 5s;
+}
+
+@keyframes movingText {
+  0% {
+    opacity: 0;
+    transform: translate(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
